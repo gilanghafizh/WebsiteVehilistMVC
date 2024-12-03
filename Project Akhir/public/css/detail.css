@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d2137;
+    color: white;
+    display: flex;
+    justify-content: center; /* Pusatkan konten secara horizontal */
+    align-items: center; /* Pusatkan konten secara vertikal */
+    height: 100vh; /* Membuat body memenuhi viewport */
+}
+
+.container {
+    background-color: #e0eaf5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 500px; /* Meningkatkan ukuran maksimum card */
+    width: 100%;
+    height: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-family: 'MonumentExtended-Ultrabold';
+    color: #34495e; /* Warna judul */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.image {
+    margin-bottom: 20px; /* Jarak antara gambar dan detail */
+}
+
+.detail-table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan jarak antara border */
+}
+
+.detail-table th,
+.detail-table td {
+    font-family: 'AktivGrotesk-Medium';
+    padding: 10px;
+    text-align: left; /* Rata kiri untuk sel */
+    color: #34495e;
+}
+
+.detail-table th {
+    font-family: 'AktivGrotesk-Light';
+    background-color: #ff8e2b;
+    color: white;
+}
+
+.detail-table img {
+    width: 100%; /* Membuat gambar memenuhi lebar sel */
+    border-radius: 5px;
+    height: auto; /* Membiarkan tinggi otomatis */
+}
+
+.action-buttons {
+    margin-top: 35px;
+}
+
+.action-buttons a {
+    font-family: 'AktivGrotesk-Medium';
+    background-color: #ff8e2b;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 5px;
+    margin: 5px; /* Memberikan jarak antar tombol */
+}
+
+.action-buttons a:hover {
+    background-color: #2980b9; /* Warna saat hover */
+}

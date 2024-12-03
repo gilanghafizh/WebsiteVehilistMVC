@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d2137;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-container {
+    background-color: #e0eaf5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    height: 335px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'MonumentExtended-Ultrabold';
+    color: #34495e;
+}
+
+h3 {
+    font-family: 'AktivGrotesk-Medium';
+    color: #0d2137;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    font-family: 'AktivGrotesk-Medium';
+    background-color: #ff8e2b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff5e2b;
+}
+
+p{
+    font-family: 'AktivGrotesk-Medium';
+}
+
+a {
+    font-family: 'AktivGrotesk-Medium';
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red; /* Warna merah untuk pesan kesalahan */
+    margin-top: 10px;
+}

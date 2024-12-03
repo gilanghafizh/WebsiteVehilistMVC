@@ -1,0 +1,127 @@
+body {
+margin: 0; /* Menghilangkan margin default */
+padding: 0; /* Menghilangkan padding default */
+background-color: #0d2137;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background-color: #051220;
+color: white;
+margin: 0px, 0px;
+}
+
+.header h1 {
+font-family: 'MonumentExtended-Ultrabold';
+margin: 0;
+font-size: 1.5em;
+}
+
+.header .logout-btn {
+font-family: 'AktivGrotesk-Medium';
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.logout-btn:hover {
+background-color: #c0392b;
+}
+
+h1 {
+font-family: 'MonumentExtended-Ultrabold';
+text-align: center;
+color: white;
+}
+
+
+
+/* Style untuk grid kendaraan */
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.vehicle-card {
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 15px;
+text-align: center;
+background-color: #e0eaf5;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease-in-out;
+min-height: 200px;
+}
+
+.vehicle-card img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.vehicle-card h2 {
+font-family: 'MonumentExtended-Regular';
+color: #34495e;
+font-size: 1em;
+margin: 15px 0;
+}
+
+.vehicle-card .actions {
+margin-top: 10px;
+}
+
+.vehicle-card a {
+font-family: 'AktivGrotesk-Medium';
+text-decoration: none;
+font-size: 0.9em;
+color: #ff8e2b;
+margin: 0 5px;
+}
+
+.vehicle-card a:hover {
+color: #ff5e2b;
+}
+
+.vehicle-card:hover {
+transform: scale(1.05);
+}
+
+.grid-container.empty {
+    display: flex;
+    color: white;
+    font-family: 'AktivGrotesk-Medium';
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Untuk menengahkan secara vertikal */
+}
+
+
+/* Style untuk tombol tambahkan kendaraan */
+.add-vehicle-container {
+text-align: center;
+margin: 20px 0;
+}
+
+.add-vehicle-btn {
+font-family: 'AktivGrotesk-Medium';
+background-color: #ff8e2b;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.add-vehicle-btn:hover {
+background-color: #ff5e2b;
+}
